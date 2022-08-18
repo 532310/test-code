@@ -1,0 +1,240 @@
+body{
+    background-color: #EEEEEE;
+}
+a{
+    text-decoration: none;
+    color: #777;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+@media screen  and (min-width:1280px) {
+    .container{
+        width: 1280px;
+    }
+}
+article,aside{
+    background-color: #fff;
+}
+#file{
+    background-color: #987575;
+}
+.row{
+    background-color: #fff;
+    padding-left: 15px!important;
+}
+/* header */
+header{
+    padding-left: 0!important;
+}
+.logo{
+    background-color: #FF5E52;
+}
+.logo img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+} 
+.logo span{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 3% 0 3%;
+    font-size: 18px;
+}
+.nav a{
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 35px;
+}
+@media screen and (max-width:991px){
+    .nav li{
+        float: left;
+        width: 16.6666%;
+    }
+}
+@media screen and (max-width:991px){
+    .nav li a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:991px){
+    .nav li a{
+        padding-left: 30%;
+    }
+}
+.nav a:hover{
+    text-decoration: none;
+    color: #333;
+    background-color: #FFF;
+}
+.nav li{
+    background-color: #F6F6F6;
+    height: 50px;
+}
+.nav a::before{
+    /* 在父级元素里面垂直对齐 */
+    vertical-align: middle;
+    padding-right: 5px;
+}
+/* 中间内容 */
+
+article{
+    background-color: #fff;
+}
+@media screen and (max-width:768px) {
+    .core li:nth-child(1){ 
+        width: 100%!important;
+    }
+    .core ul li a{
+        font-size: 12px;
+    }
+    .core ul li{
+        width: 50%!important;
+    }
+}
+@media screen and (max-width:460px) {
+    .core li{
+        padding-right: 0px!important;
+        /* margin-left: 10px!important; */
+    }
+}
+
+.core{
+    margin-top: 20px;
+}
+.core li{
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.core li:nth-child(1){
+    width: 50%;
+    height: 266px;
+    font-size: 18px;
+}
+/* 这样可以把第一个p的权重设置更高 */
+.core li:nth-child(1) p{ 
+    font-size: 18px;
+    line-height: 41px;
+    padding-top: 0;
+}
+.core li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.core li a img{
+    width: 100%;
+    height: 100%;
+}
+.core li a p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 3px;
+}
+/* 中下内容 */
+@media screen and (max-width:768px) {
+    .sticky img{
+        padding-top: 5px;
+        float: left;
+        width: 26%!important;
+        height:50%!important;
+    }
+    .script{
+        float: left;
+        width: 70%!important;
+
+    }
+    .row h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:460px) {
+    .row h3{
+        display: block;
+        padding-right: 10px;
+        font-size:18px;
+    }
+    .col-md-7{
+        padding-left: 0!important;
+    }
+}
+.sticky{
+    border-top: 1px solid rgb(190, 190, 190);
+}
+
+.sticky img{
+    width: 100%;
+    height: 132px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+.sticky img:hover{
+    opacity: 10;
+}
+.text-up{
+    font-size: 12px;
+}
+.row{
+    padding-left: 20px;
+}   
+.map{
+    padding: 0!important;
+}
+.col-sm-9 :nth-child(1){
+    color: #666;
+}
+.sticky .row{
+    border-bottom: 1px solid rgba(190, 190, 190, 0.4);
+}
+/* 右内容 */
+aside{
+    padding: 0!important;
+}
+.map-1{
+    display: block;
+    padding-top: 20px;
+    margin-right:20px;
+}
+.map-1 img{
+    width: 100%;
+}
+.item{
+    margin:20px ;
+    margin-left: 0;
+    padding: 0 10px 10px;
+    display: block;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+}
+.item h4{
+    color: #FF5E52;
+}
+.item span{
+    display: block;
+    background-color: #FF5E52;
+    color: #fff;
+    width: 55px;
+    height:27px ;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.item p{
+    font-size: 12px;
+    color: rgb(120, 120, 120,0.8);
+}

@@ -1,0 +1,145 @@
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 500px) {
+  html {
+    font-size: 33.33333333px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial, Helvetica;
+  background: #F2F2F2;
+}
+.search-content {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #FFDB47;
+  border-radius: 0 0 0.76rem 0.76rem;
+  width: 15rem;
+  height: 1.76rem;
+  z-index: 1;
+}
+.search-content .more {
+  width: 0.72rem;
+  height: 1.12rem;
+  margin: 0.36rem 0.36rem 0rem 0.46rem;
+  background: url(../images/sn1.png) no-repeat;
+  background-size: 0.72rem 1.12rem;
+}
+.search-content .search {
+  flex: 1;
+}
+.search-content .search input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.04rem;
+  margin-top: 0.36rem;
+  color: #888;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 0.36rem;
+  padding-left: 1.16rem;
+}
+.search-content .search form::after {
+  content: "";
+  position: absolute;
+  top: 0.54rem;
+  left: 1.8rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  background: url(../images/sn3.png) no-repeat;
+  background-size: 0.72rem 0.72rem;
+}
+.search-content .mine {
+  width: 0.72rem;
+  height: 1.12rem;
+  margin: 0.36rem 0.46rem 0rem 0.36rem;
+  background: url(../images/sn2.png) no-repeat;
+  background-size: 0.72rem 1.12rem;
+}
+.swipe {
+  position: relative;
+  top: 2rem;
+  left: 0rem;
+  width: 15rem;
+  height: 7.36rem;
+}
+.swipe img {
+  display: block;
+  margin-left: 0.76rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+}
+nav {
+  position: relative;
+  top: 2rem;
+  left: 0rem;
+  width: 15rem;
+}
+nav a {
+  float: left;
+  width: 3rem;
+  height: 2.8rem;
+  text-align: center;
+}
+nav a img {
+  display: block;
+  width: 1.64rem;
+  height: 1.64rem;
+  margin-left: 0.64rem;
+}
+nav a span {
+  position: relative;
+  top: -0.56rem;
+  left: 0;
+  color: #888;
+  font-size: 0.4rem;
+}

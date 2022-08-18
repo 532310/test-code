@@ -1,0 +1,80 @@
+body{
+    min-width: 320px;
+    max-width: 750px;
+    /* flexible给我们划分了10等份*/
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background:#F2F2F2;
+    color:#777;
+}
+@media screen and (min-width:750px) {
+    html{
+        font-size: 75px!important;
+    }
+}
+a{
+    text-decoration: none;
+    color:#777;
+}
+/* 搜索 */
+.map{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height:3rem;
+    background-color: #FFDB47;
+    border-radius:0 0 .2667rem .2667rem;
+}
+.search-content{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height:.88rem;
+    background-color: #FFDB47;
+
+}
+.more{
+    width:.3733rem;
+    height:.6rem;
+    margin: .1067rem .2533rem 0;
+    background: url(../images/sn1.png) no-repeat;
+    background-size:.3733rem .6rem;
+    
+}
+.search{
+    flex: 1;
+}
+.search input{
+    width: 100%;
+    height: .5rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top:.19rem;
+    border: none;
+    outline: none;
+    padding-left: .9rem;
+    /* font-size: .24rem; */
+}
+.search form::before{
+    content: "";
+    position: absolute;
+    top: .25rem;
+    left: 1.1rem;
+    width: .4rem;
+    height:.4rem;
+    background: url(../images/sn3.png) no-repeat;
+    background-size: .4rem .4rem;
+ }
+.mine{
+    width:.3733rem;
+    height:.6rem;
+    margin: .1067rem .2533rem 0;
+    background: url(../images/sn2.png) no-repeat;
+    background-size:.3733rem .6rem;
+}
